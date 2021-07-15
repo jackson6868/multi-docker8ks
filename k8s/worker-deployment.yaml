@@ -13,5 +13,5 @@ spec:
         component: worker
     spec:
       containers:
-        - name: worker
+        - name: worker 
           image: jackson3232/multi-worker

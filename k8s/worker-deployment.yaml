@@ -7,11 +7,11 @@ spec:
   selector:
     matchLabels:
       component: worker
-  template:
+  template: 
     metadata:
       labels:
         component: worker
     spec:
-      containers:
+      containers:2e
         - name: worker 
           image: jackson3232/multi-worker

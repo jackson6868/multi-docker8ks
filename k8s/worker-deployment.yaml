@@ -12,6 +12,6 @@ spec:
       labels:
         component: worker
     spec:
-      containers:2e
+      containers:
         - name: worker 
           image: jackson3232/multi-worker

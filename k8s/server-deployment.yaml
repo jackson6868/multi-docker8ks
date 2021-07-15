@@ -17,3 +17,26 @@ spec:
           image: jackson3232/multi-server
           ports:
             - containerPort: 5000
+          env:
+            - name: REDIS_HOST
+              value: redis-cluster-ip-service
+            - name: REDIS_PORT
+              value: '6379'
+            - name: PGUSER
+              value: postgres
+            - name: PGHOST
+              value: postgres-cluster-ip-service
+            - name: PGPORT
+              value: '5432'
+            - name: PGDATABASE
+              value: postgres
+            - name: PGPASSWORD
+              valueFrom: 
+                secretKeyRef:
+                  name: pgapassword
+                  key: PGPASSWORD
+
+            
+           
+
+

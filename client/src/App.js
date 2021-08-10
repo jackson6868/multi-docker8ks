@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-           Fib calc ver 2
+           Fib calc ver 3
           </a>
           <Link to="/">Home</Link>
           <Link  to="/otherpage">Other Pagd22e21</Link>

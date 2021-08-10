@@ -1,6 +1,6 @@
-docker build -t jackson/multi-client:latest -t jackson/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t jackson/multi-server:latest -t jackson/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t jackson/multi-worker:latest -t jackson/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t jackson3232/multi-client:latest -t jackson3232/multi-client:$SHA -f ./client/Dockerfile ./client
+docker build -t jackson3232/multi-server:latest -t jackson3232/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build -t jackson3232/multi-worker:latest -t jackson3232/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push jackson3232/multi-client:latest
 docker push jackson3232/multi-server:latest
 docker push jackson3232/multi-worker:latest
